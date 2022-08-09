@@ -1,4 +1,4 @@
-# health_news_indonesia
+# Health News Indonesia
 Aplikasi portal berita kesehatan dari beberapa sumber
 
 ## Peringatan!
