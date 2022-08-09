@@ -7,6 +7,7 @@ API Key pada source code ini tidak disediakan pemilik
 ## Tips
 Tekan dan tahan berita untuk membagikan berita
 
+Unduh `.apk` disini [here](/healthnewsindo.apk)
+
 ## Screenshot
 ![Screenshot](Screenshot_20220809-224238.jpg)
-Download `.apk` disini [here](/build/app/outputs/flutter-apk/app-release.apk)
