@@ -9,3 +9,4 @@ Tekan dan tahan berita untuk membagikan berita
 
 ## Screenshot
 ![Screenshot](Screenshot_20220809-224238.jpg)
+Download `.apk` disini [here](/build/app/outputs/flutter-apk/app-release.apk)
