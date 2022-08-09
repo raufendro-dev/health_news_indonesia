@@ -5,4 +5,4 @@ Aplikasi portal berita kesehatan dari beberapa sumber
 API Key pada source code ini tidak disediakan pemilik
 
 ## Screenshot
-![Screenshot](Screenshot_20220809-224238.jpg = 640x480)
+![Screenshot](Screenshot_20220809-224238.jpg)
