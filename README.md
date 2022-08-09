@@ -5,3 +5,4 @@ Aplikasi portal berita kesehatan dari beberapa sumber
 API Key pada source code ini tidak disediakan pemilik
 
 ## Screenshot
+![alt text](http://url/to/img.png)
