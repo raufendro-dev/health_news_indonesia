@@ -98,7 +98,7 @@ class _MyHomePageState extends State<MyHomePage> {
   String? urlgambar='';
   final ScrollController _scrollController = ScrollController();
   Future<dynamic> ambildata()async{
-    String urlAPI="https://newsapi.org/v2/top-headlines?country=id&category=health&apiKey=";
+    String urlAPI="";
 
 
 
