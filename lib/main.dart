@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:async';
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/services.dart';
+
 import 'package:webview_flutter/webview_flutter.dart';
 import 'simpan.dart';
 import 'package:page_transition/page_transition.dart';
 import 'dart:convert';
-import 'infocovid.dart';
-import 'dart:io';
+import 'infors.dart';
+
 import 'package:flutter_share/flutter_share.dart';
+import 'hitung.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Health News ID',
       theme: ThemeData(
         // This is the theme of your application.
@@ -76,16 +78,28 @@ class _MyHomePageState extends State<MyHomePage> {
     setState(() {
       _selectedIndex = index;
       if (index==0){
-        print("Home");
+        print("Berita");
       } else if (index==1){
-        print("Notifikasi");
+        print("Hitung");
         Navigator.push(
           context,
             PageRouteBuilder(
-              pageBuilder: (context, animation1, animation2) => InfoCovidScreen(),
+              pageBuilder: (context, animation1, animation2) => Hitung(),
               transitionDuration: Duration(seconds: 0),
             ),
         );
+        
+
+      }else if (index==2){
+        print("RS");
+        Navigator.push(
+          context,
+            PageRouteBuilder(
+              pageBuilder: (context, animation1, animation2) => InfoRSScreen(),
+              transitionDuration: Duration(seconds: 0),
+            ),
+        );
+       
 
       }
     });
@@ -98,7 +112,7 @@ class _MyHomePageState extends State<MyHomePage> {
   String? urlgambar='';
   final ScrollController _scrollController = ScrollController();
   Future<dynamic> ambildata()async{
-    String urlAPI="";
+    String urlAPI="https://newsapi.org/v2/top-headlines?country=id&category=health&apiKey=9af25ed49b7a498f85de819e2c1602af";
 
 
 
@@ -286,7 +300,8 @@ class _MyHomePageState extends State<MyHomePage> {
     ),
         bottomNavigationBar: BottomNavigationBar(items: const <BottomNavigationBarItem>[
         BottomNavigationBarItem(icon: Icon(Icons.library_books), label: "Berita"),
-    BottomNavigationBarItem(icon: Icon(Icons.info_outline_rounded), label: "Informasi Kesehatan"),
+        BottomNavigationBarItem(icon: Icon(Icons.calculate), label: "Hitung Kesehatan"),
+    BottomNavigationBarItem(icon: Icon(Icons.local_hospital), label: "Rumah Sakit"),
     ],
     currentIndex: _selectedIndex,
     onTap: _onItemTap,
