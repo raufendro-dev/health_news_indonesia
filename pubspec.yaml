@@ -39,6 +39,8 @@ dependencies:
   webview_flutter: ^3.0.0
   page_transition: "^2.0.9"
   gridview_menu: ^1.0.6
+  flutter_grid_button: ^2.0.0
+  flutter_alarm_clock: ^0.0.2
 
 
 dev_dependencies:
