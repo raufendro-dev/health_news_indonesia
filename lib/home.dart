@@ -75,7 +75,7 @@ class HomeState extends State {
             crossAxisCount: 2,
             children: <Widget>[
               Padding(
-                padding: const EdgeInsets.all(30.0),
+                padding: const EdgeInsets.all(35.0),
                 child: Container(
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.all(
@@ -108,7 +108,7 @@ class HomeState extends State {
                     ))),
               ),
               Padding(
-                padding: const EdgeInsets.all(30.0),
+                padding: const EdgeInsets.all(35.0),
                 child: Container(
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.all(
@@ -132,7 +132,7 @@ class HomeState extends State {
                     ))),
               ),
               Padding(
-                padding: const EdgeInsets.all(30.0),
+                padding: const EdgeInsets.all(35.0),
                 child: Container(
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.all(
