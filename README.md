@@ -11,5 +11,5 @@ Unduh `.apk` disini [here](https://github.com/raufendro-dev/health_news_indonesi
 
 ## Screenshot
 ![Screenshot](home.png)
-![Screenshot](fitur.jpg)
-![Screenshot](infors.jpg)
+![Screenshot](fitur.png)
+![Screenshot](infors.png)
