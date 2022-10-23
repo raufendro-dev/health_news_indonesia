@@ -7,7 +7,7 @@ API Key pada source code ini tidak disediakan pemilik
 ## Tips
 Tekan dan tahan berita untuk membagikan berita
 
-Unduh `.apk` disini [here](https://github.com/raufendro-dev/health_news_indonesia/raw/main/healthnewsindo.apk)
+Unduh `.apk` disini [here](https://github.com/raufendro-dev/health_news_indonesia/raw/main/app(not finished yet).apk)
 
 ## Screenshot
 ![Screenshot](home.png)
